@@ -1,0 +1,45 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h2 class="panel-title">View job  <b>{{job.jobid}} {{job.jobTitle}}</b></h2>
+    </div>
+    <div class="panel-body">
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="form-group">
+                    <label for="jobid">Job ID:</label>
+                    <span id="jobid" class="form-control">{{job.jobid}}</span>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="form-group">
+                    <label for="jobTitle">Job Title:</label>
+                    <span id="jobTitle" class="form-control">{{job.jobTitle}}</span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="form-group">
+                    <label for="maxsalary">MAX Salary:</label>
+                    <span id="maxsalary" class="form-control">{{job.maxsalary}}</span>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="form-group">
+                    <label for="minsalary">MIN Salary:</label>
+                    <span id="minsalary" class="form-control">{{job.minsalary}}</span>
+                </div>
+            </div>
+        </div>
+                <div class="row">
+            <div class="col-md-5"></div>
+            <div class="col-md-7">
+                <div class="container">
+                    <button class="btn btn-default" ng-click="back()">Back</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
